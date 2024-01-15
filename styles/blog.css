@@ -1,0 +1,194 @@
+header {
+    padding: 50px 135px;
+}
+
+.logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-2 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: #131318;
+}
+
+.logo-3 {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.home-btn {
+    color: #FF5400;
+    font-weight: 700;
+}
+
+.logo-4 {
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 36px;
+    color: #FF5400;
+}
+
+.banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../g2.png');
+    width: 100%;
+    height: 500px;
+    border-radius: 16px;
+    text-align: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+
+}
+
+.banner1 {
+    color: #FFF;
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner2 {
+    color: #FFF;
+
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.banner3 {
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    gap: 24px;
+    padding: 16px;
+    border-radius: 8px;
+    width: 800px;
+    height: auto;
+    margin: auto;
+}
+
+.banner4 {
+    box-sizing: border-box;
+    width: 174px;
+    height: 52px;
+    padding: 16px;
+    color: rgba(19, 19, 24, 0.50);
+    border: none;
+    border-radius: 8px;
+}
+
+.bannerbtn {
+    background: #FF5400;
+    box-sizing: border-box;
+    width: 174px;
+    height: 52px;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+}
+main{
+    padding: 50px 135px;
+}
+
+.mountain {
+    display: flex;
+    gap: 80px;
+
+}
+
+.mountain img{
+    width: 490px;
+height: 550px;
+}
+
+.m1 {
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.m2 {
+    color: rgba(19, 19, 24, 0.70);
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.m3 {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    color: #FFF;
+
+}
+.destination{
+    color: #131318;
+
+text-align: center;
+font-family: 'Mulish', sans-serif;
+font-size: 40px;
+font-weight: 800;
+}
+.destination2{
+    color: rgba(19, 19, 24, 0.70);
+
+text-align: center;
+font-family: 'Mulish', sans-serif;
+font-size: 16px;
+
+font-weight: 400;
+line-height: 26px;
+}
+.destination3{
+    display: flex;
+    grid-template-rows: 1fr 1fr;
+    gap: 24px;
+    padding: 24px 0px;
+}
+.destination4{
+    display: flex;
+    grid-template-rows: 1fr 2fr 1fr;
+    padding-bottom: 24px;
+    gap: 24px;
+
+}
+.destination5{
+    display: flex;
+    grid-template-rows: 1fr 1fr;
+    gap: 24px;
+}
