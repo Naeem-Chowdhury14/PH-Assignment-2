@@ -53,7 +53,7 @@ nav li {
 .banner {
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../g2.png');
     width: 100%;
-    height: 500px;
+    height: 5100%;
     border-radius: 16px;
     text-align: center;
     background-repeat: no-repeat;
@@ -94,7 +94,7 @@ nav li {
 
 .banner4 {
     box-sizing: border-box;
-    width: 174px;
+    width: 20%;
     height: 52px;
     padding: 16px;
     color: rgba(19, 19, 24, 0.50);
@@ -118,7 +118,7 @@ nav li {
 .mountain {
     display: flex;
     gap: 80px;
-    padding: 50px 135px;
+    padding: 50px 0px;
 
 }
 
@@ -168,7 +168,7 @@ height: 550px;
     width: 50%;
 }
 .maindestination{
-    padding: 50px 80px;
+    width: 100%;
 }
 .destination{
     color: #131318;
@@ -237,9 +237,9 @@ margin-bottom: 50px;
     height: 500px;
     border-radius: 8px;
 }
-.wh{
+/* .wh{
     padding: 50px 135px;
-}
+} */
 .why1{
     width: 573px;
     height: 284px;
@@ -345,31 +345,32 @@ font-weight: 400;
 line-height: 26px;
 margin-bottom: 24px;
 }
-.news{
+/* .news{
     padding: 50px 135px; 
-}
+} */
 .newsletter{
     display: flex;
     gap: 24px;
 }
 .news1{
     width: 40%;
-height: px;
+    height: 60%;
 border-radius: 16px;
 border: 1px solid #FF5400;
 padding: 40px;
 }
 .news2{
-    width: 60%;
+    width: 70%;
 height: 100%;
 border-radius: 16px;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+position: relative;
 }
 #n1{
     color: #131318;
 
     font-family: 'Mulish', sans-serif;
-font-size: 24px;
+font-size: 1.5rem;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -423,7 +424,27 @@ padding-left: 10px;
 height: 1px;
 background: rgba(19, 19, 24, 0.10);
 }
+.newssave{
+    width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+flex-shrink: 0;
+border-radius: 16px;
+background: #FF5400;
+position: absolute;
 
+bottom: 50px;
+left: 340px;
+color: #FFF;
+
+font-family: 'Mulish', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+
+}
 .ft{
     align-items: center;
     display: flex;
