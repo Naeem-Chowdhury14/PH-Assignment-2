@@ -2,6 +2,9 @@
     header{
         padding: 20px;
     }
+    .logo-3{
+        display: none;
+    }
     .banner3{
         flex-direction: column;
         width: 80%;
@@ -11,7 +14,7 @@
     }
     .banner{
         padding: 10px;
-        width: 335px;
+        width: 100%;
 height: 100%;
     }
     .banner1{
@@ -55,8 +58,12 @@ height: 100%;
         padding-bottom: 20px;
     }
     .news2{
-        width: 70%;
-        margin: 0px auto;
+        width: 100%;
+        
+        
+    }
+    .newssave{
+        left: 250px;
     }
     .honeymoon{
         padding: 10px;
@@ -66,10 +73,21 @@ height: 100%;
         width: 100%;
     }
     .why1{
-        padding-right: 10px;
+        
+        width: 90%;
+        
     }
     .why3{
-        margin-top: 24px;
+        
+        width: 90%;
         margin-left: 0px;
+
+    }
+    .why2{
+        width: 90%;
+    
+    }
+    hr{
+        width: 80%;
     }
 }

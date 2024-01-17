@@ -59,7 +59,8 @@ nav li {
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
-    padding-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 
 }
 
@@ -241,7 +242,7 @@ margin-bottom: 50px;
     padding: 50px 135px;
 } */
 .why1{
-    width: 573px;
+    width: 50%;
     height: 284px;
     border-radius: 16px;
 border: 1px solid rgba(251, 181, 99, 0.20);
@@ -250,7 +251,7 @@ padding: 25px;
 
 }
 .why2{
-    width: 573px;
+    width: 50%;
     height: 284px;
     border-radius: 16px;
 border: 1px solid rgba(41, 206, 246, 0.20);
@@ -295,17 +296,17 @@ font-weight: 400;
 
 }
 .why3{
-    width: 573px;
+    width: 50%;
 height: 284px;
 flex-shrink: 0;
 border-radius: 16px;
 border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
 margin-top: 24px;
-justify-content: center;
-margin-left: 180px;
-padding: 50px;
-/* margin-bottom: 80px; */
+
+margin-left: 240px;
+padding: 25px;
+margin-bottom: 80px;
 }
 #w31{
     color: #131318;
@@ -351,21 +352,28 @@ margin-bottom: 24px;
 .newsletter{
     display: flex;
     gap: 24px;
+    margin-top: 50px;
 }
 .news1{
     width: 40%;
-    height: 60%;
+    height: 350px;
 border-radius: 16px;
 border: 1px solid #FF5400;
 padding: 40px;
 }
 .news2{
-    width: 70%;
+    width: 60%;
 height: 100%;
 border-radius: 16px;
-background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 position: relative;
+
 }
+.news2 img{
+    width: 100%;
+
+}
+
 #n1{
     color: #131318;
 
@@ -434,7 +442,7 @@ background: #FF5400;
 position: absolute;
 
 bottom: 50px;
-left: 340px;
+left: 350px;
 color: #FFF;
 
 font-family: 'Mulish', sans-serif;
@@ -451,6 +459,7 @@ text-align: center;
     gap: 24px;
     justify-content: center;
     padding-top: 110px;
+    margin-top: 80px;
 }
 .ft2{
     color: var(--Dark-01, #131318);
